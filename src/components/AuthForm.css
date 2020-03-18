@@ -1,0 +1,16 @@
+.auth-form {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-form > div:first-child {
+  width: 450px;
+  max-width: 80%;
+}
+
+.pw-forget {
+  margin-top: 10px;
+  display: inline-block;
+}
