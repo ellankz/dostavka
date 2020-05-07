@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Field, reduxForm } from 'redux-form';
 import { Redirect } from 'react-router-dom';
-import { FROMSUBMITED } from "../constants/routes";
+import { FORMSUBMITTED } from "../constants/routes";
 
 const validate = values => {
     const errors = {}
@@ -41,7 +41,8 @@ const ContactForm = (props) => {
     const { handleSubmit, submitting } = props;
     const [redirectToNewPage, setRedirectToNewPage] = useState(false);
 
-    const handleContactFormSubmit = async () => {
+    const handleContactFormSubmit = async (e) => {
+        e.preventDefault();
         const submitResult = await handleSubmit();
         if (submitResult === true) {
             setRedirectToNewPage(true);
@@ -52,7 +53,7 @@ const ContactForm = (props) => {
 
     if (redirectToNewPage) {
         return (
-        <Redirect to={FROMSUBMITED} />
+        <Redirect to={FORMSUBMITTED} />
         )
     }
 
