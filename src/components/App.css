@@ -40,6 +40,10 @@
 	border: none;
 }
 
+.ui.form .error.message {
+	display: block;
+	padding: 0.5em 1em;
+}
 
 /* mobile hidden class */
 @media only screen and (max-width: 767px) {
