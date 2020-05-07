@@ -10,6 +10,7 @@ const ServiceList = (props) => {
 
     useEffect(() => {
         dispatch(getServices(category));
+        window.scrollTo(0, 0);
     }, [category, dispatch]);
     return (    
         <div className="ui divided items">

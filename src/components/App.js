@@ -22,3 +22,6 @@ const App = () => {
 };
 
 export default App;
+
+// TODO: Tidy app mobile version. Replace menu with slide-out sidebar for mobile.
+// TODO: Find a way to show user that a page has been re-rendered. When changing categories it is often not obvious that something changed. Options: scroll to top, randomly mix service providers in list, show some loading animation for half a sec to imitate loading.
