@@ -8,8 +8,8 @@ const data = {
             contact: {
                     address: 'Соборна 32/29',
                     phone: [
-                        '380686099097',
-                        '380971586175'
+                        '0686099097',
+                        '0971586175'
                     ]
                 },
             deliverableGroups: [
@@ -39,7 +39,7 @@ const data = {
             contact: {
                     address: 'вул. Коцюбинського 1',
                     phone: [
-                        '380984743402'
+                        '0984743402'
                     ]
                 },
             deliverableGroups: [
