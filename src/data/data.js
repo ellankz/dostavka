@@ -8,8 +8,7 @@ const data = {
             contact: {
                     address: 'Соборна 32/29',
                     phone: [
-                        '0686099097',
-                        '0971586175'
+                        '0686099097'
                     ]
                 },
             deliverableGroups: [
